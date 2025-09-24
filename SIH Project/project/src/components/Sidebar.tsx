@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  BarChart3, 
-  Users, 
-  Settings, 
-  Bell, 
-  Home, 
-  FileText, 
-  TrendingUp, 
-  Menu, 
-  X 
+import { AnimatePresence, motion } from 'framer-motion';
+import {
+  BarChart3,
+  Bell,
+  FileText,
+  Home,
+  Settings,
+  TrendingUp,
+  Users,
+  X
 } from 'lucide-react';
+import React, { useState } from 'react';
 import { cn } from '../utils/cn';
 
 const menuItems = [
@@ -86,7 +85,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
                     exit={{ opacity: 0, x: -10 }}
                     className="text-xl font-bold bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent"
                   >
-                    Civic Help
+                    Jharkhand Govt
                   </motion.span>
                 )}
               </AnimatePresence>

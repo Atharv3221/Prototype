@@ -214,7 +214,7 @@ export const DeviceChart: React.FC = () => {
           <div key={index} className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div 
-                className="w-3 h-3 rounded-full" 
+                className=" w-3 h-3 rounded-full" 
                 style={{ backgroundColor: item.color }}
               />
               <span className="text-sm text-gray-600 dark:text-gray-400">
