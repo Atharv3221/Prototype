@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { BarChart3 } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 
 interface SplashScreenProps {
   onComplete: () => void;
@@ -53,7 +53,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
             className="mb-8"
           >
             <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent font-poppins">
-              Civic Help India
+              Jharkhand Govt
             </h1>
             <p className="text-slate-600 dark:text-slate-400 mt-2 font-inter">
               Report Analytics
